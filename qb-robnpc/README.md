@@ -1,4 +1,4 @@
-# QB-robnpc
+# qb-robnpc
 Simple as it reads.
 
 Aim an NPC Speak and/or press <BUTTON> to hold em up and give you money and/or items. <Selected in the Config file>
