@@ -15,7 +15,7 @@ Citizen.CreateThread(function()
                 local pCoords = GetEntityCoords(playerPed, true)
                 local tCoords = GetEntityCoords(targetPed, true)
 
-                if DoesEntityExist(targetPed) and IsEntityAPed(targetPed) then
+                if DoesEntityExist(targetPed) and IsPedHuman(targetPed) then
                     if robbedRecently then
                         QBCore.Functions.Notify("Slow your roll you Thug!!")
                     elseif IsPedDeadOrDying(targetPed, true) then
